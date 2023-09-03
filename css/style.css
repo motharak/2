@@ -57,6 +57,7 @@
     padding: 0 10px;
 }
 td, th{
+    width: 100%;
     padding:0 10px;
 }
 td{
@@ -68,8 +69,6 @@ img[alt=cover]{
 
 }
 .body .left img[alt=profile]{
-    width:60px;
-    height: auto;
     float: left;
     padding:0 5px;
     position: absolute;
@@ -124,4 +123,3 @@ img[alt=profile]{
     border-radius: 20px;
     color:#fff;
  }
-
