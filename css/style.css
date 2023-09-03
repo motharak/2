@@ -1,0 +1,127 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.header ul{
+    padding-left:150px;
+    list-style-type: none;
+    display: inline-flex;
+    gap: 30px;
+}
+.header ul li a{
+    gap: 30px;
+    text-decoration:none;
+    color:rgb(102, 102, 102);
+    font-size:large;
+    font-weight:bold;
+}
+.header img{
+    width: 45px;
+    height: 45px;
+    
+}
+
+.header h3{
+    padding:0 25px 0 25px;
+    text-align: center;
+    background-color: rgb(77, 190, 255);
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+    color:#fff;
+}
+
+.body{
+    background-color:aliceblue;
+    display: inline-flex;
+    margin: 0 auto;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+    height: 200vh;
+}
+
+.body .left{
+    margin-left: 150px;
+    width: 15%;
+    background-color: #fff;
+    height: fit-content;
+    text-align:center;
+}
+.body .left h4{
+    display:block;
+     text-align:center;
+}
+.left table{
+    margin: 0 auto;
+    padding: 0 10px;
+}
+td, th{
+    padding:0 10px;
+}
+td{
+    color:rgb(0, 132, 255);
+}
+img[alt=cover]{
+    width: 100%;
+    height: auto;
+
+}
+.body .left img[alt=profile]{
+    width:60px;
+    height: auto;
+    float: left;
+    padding:0 5px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+
+.body .mid{
+    width: 45%;
+    background-color: #fff;
+    height: fit-content;
+    padding: 10px 0 20px 10px;
+    margin:0 0 20px 0;
+}
+.post{
+    border-bottom: 1px solid #000;
+}
+.body .mid .post span{
+    display: inline-flex;
+    gap: 5px;
+}
+img[alt=profile]{
+    width:60px;
+    height: auto;
+}
+.body .right{
+    width: 15%;
+    background-color: #fff;
+    height: fit-content;
+}
+.right img{
+    width:60px;
+    height: auto;
+    float: left;
+    padding:0 5px;
+}
+ .right span{
+    display: inline-flex;
+    gap: 10px;
+    flex-wrap: wrap;
+ }
+
+ .right .followBtn{
+    position: relative;
+    left: 75px;
+    bottom: 40px;
+    width:50px;
+    padding:0 5px 0 5px;
+    text-align: center;
+    background-color: rgb(77, 190, 255);
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+    color:#fff;
+ }
+
